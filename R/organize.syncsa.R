@@ -6,17 +6,17 @@
 #' The function organizes the data for the functions of the package
 #' SYNCSA, placing the matrices of community, traits, phylogenetic
 #' distance, environmental varibles and strata vector in the same order. 
-#' The function use as reference the community data for organize all data frame or matrices
-#' in the same order that the sampling units names and species names found in community
-#' data set. For this all data sets entered must be correctly named, with rows and columns 
-#' named. The matrices phylodist, traits, envir can be larger than community
-#' data (more species and/or more sampling units) as long as it has at least 
-#' all species and/or sampling units that are in community data. The function 
-#' organizes the data despite the absence of one of the dataframes or matrices,
+#' The function uses as reference the community data to organize all remaninig data frames or matrices
+#' following the order of the sampling units names and species names found in the community
+#' data set.In order to do so, all data sets entered must be correctly named, with rows and columns 
+#' named. The matrices phylodist, traits, envir can be larger than the community
+#' data (more species and/or more sampling units) as long as they have at least 
+#' all species and/or sampling units contained in the community data set. The function 
+#' organizes the data despite the absence of one of the data frames or matrices,
 #' provided that the community data had been entered. Unspecified data will 
 #' appear as NULL.
 #'
-#' The strata must be a named vector. The strata vector is a vector for restrict
+#' The strata must be a named vector. The strata vector is a vector used to restrict
 #' permutation within species groups, insofar as the SYNCSA package the null 
 #' models are based in permutation of species rather than permutation of sample units.
 #'
