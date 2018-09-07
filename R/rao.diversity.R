@@ -8,10 +8,10 @@
 #' The dissimilarity range from 0 to 1 and is based on a set of specified
 #' functional traits or in the phylogenetic dissimilarity.
 #'
-#' For the trait data , the function calculates the square root of the
+#' For trait data, the function calculates the square root of the
 #' one-complement of Gower`s similarity index, in order to have a dissimilarity
-#' matrix with Euclidean metric properties. Gower`s index ranges from 0 to 1
-#' and can handle traits measured indifferent scales. When the species are
+#' matrix with Euclidean properties. Gower`s index ranges from 0 to 1
+#' and can handle traits measured in different scales. When the species are
 #' completely different in terms of their traits, Rao quadratic entropy is
 #' equivalent to the Gini-Simpson index.
 #'
